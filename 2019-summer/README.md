@@ -1,5 +1,9 @@
 ## Course Content
 
+# Feedback
+ * http://bit.ly/feedback_begin
+ * http://bit.ly/feedback_curs
+
 1. Introduction to Python
     * Environment Setup
     * Variable Types
