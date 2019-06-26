@@ -1,0 +1,18 @@
+Author: Iridon Stefan
+Curs py@ccna
+
+Functions-----------------------------------------------------------------------
+1. Creati o functie care returneaza o lista cu patratele primelor n numere prime folosind filter si map (creati si functiile ajutatoare de verificare prim, generare patrat)
+2. Creati o functie "myjoin" care primeste doua argumente: lista si field separator-ul. (fs trebuie sa fie argument default!, puteti apela join pentru simplitate, scopul exercitiului este verificarea intelegerii folosirii argumentelor default)
+
+Files I/O----------------------------------------------------------------------- 
+1. Modificati fisierul primit a.i. toate cuvintele sa fie afisate pe cate o linie (hint: split)
+2. Determinati dimensiunea fisierului rezultat (hint: seek, tell)
+3. Creati un nou fisier care contine cuvintele din a doua jumatate a fisierului obtinut la task-ul 1 (folositi seek + dimensiunea de la 2)
+4. Scrieti un script, folosind metodele invatate la demo, care deschide un fisier si scrie pe cate o linie urmatoarele informatii: Nume, Prenume, Grupa. Script-ul trebuie sa verifice daca fisierul exista. In cazul in care exista un alt fisier cu numele pe care doriti sa-l folositi, scrieti un mesaj de eroare la stderr si terminati programul cu exitcode-ul corespunzator!
+Bonus: Refaceti task-urile 2 si 3. Interactionati cu fisierele prin intermediul fd -> a doua parte a demo-ului. (hint pentru file size os.fstat)
+
+Generator&Iterator--------------------------------------------------------------
+1. Implementati un generator function care returneaza numarul de divizori al primelor n numere
+2. Implementati un generator expression cu aceeasi functionalitate
+3. Iterati prin cele doua generatoare
